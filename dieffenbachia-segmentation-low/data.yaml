@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dieffenbachia-oVHx']
+
+roboflow:
+  workspace: emp
+  project: dieffenbachia-segmentation-low
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/emp/dieffenbachia-segmentation-low/dataset/1
